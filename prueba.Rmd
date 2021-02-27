@@ -1,0 +1,41 @@
+---
+title: "Deserción ITESM"
+subtitle: ""
+author: "Consultora"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    self_contained : TRUE
+    seal: false
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+      
+---
+```{r include=F, echo=F, results=F}
+library(xaringanthemer)
+knitr::opts_chunk$set(echo=F, message=F, warning=F,comment = F,
+        fig.width = 700 / 72,fig.asp=.7,fig.retina=2,cache = F)
+style_mono_accent(base_color =  "#2271ea",  
+                  header_font_google = google_font("Josefin Sans"),
+                  text_font_google   = google_font("Montserrat", "300", "300i"),
+                  code_font_google   = google_font("Fira Mono"))
+"img/prueba.jpg"
+```
+class: center, middle
+
+# Deserción ITESM
+### Consultora Don Gil 
+
+<img src="img/transformacion_publica.jpg" width="200" height="100" />
+<img src="img/prueba.jpg" width="100" height="200" position="left" />
+
+
+
+---
+class:  inverse, center, middle
+
+# AVEDÁ
